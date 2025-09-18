@@ -1,0 +1,46 @@
+/* Fundo roxo da navbar */
+.bg-purple {
+  background-color: #c87aff !important;
+}
+
+/* Cor do texto da navbar */
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffb6ff;
+}
+
+/* Botão pesquisa */
+.navbar .btn-outline-light {
+  border-color: #ffb6ff;
+  color: #fff;
+}
+
+.navbar .btn-outline-light:hover {
+  background-color: #ffb6ff;
+  color: #b684da;
+}
+
+/* Espaço para navbar fixa */
+body {
+  padding-top: 70px;
+}
+
+/* Rolagem suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Carrossel */
+.carousel img {
+  object-fit: cover;
+  height: 500px;
+}
+.card-body img {
+  width: 120px;       /* largura fixa */
+  height: 120px;      /* altura fixa */
+  object-fit: cover;  /* corta e centraliza a imagem */
+  margin-bottom: 15px; /* espaço entre a imagem e o título */
+}
